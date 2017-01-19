@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "A jsonapi server to articles-recommander data",
   "scripts": {
-    "test": "make tests"
+    "test": "make tests",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
