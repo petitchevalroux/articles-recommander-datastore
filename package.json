@@ -1,26 +1,41 @@
 {
-    "name": "articles-recommander-datastore",
-    "version": "0.0.0",
-    "description": "A jsonapi server to articles-recommander data",
-    "scripts": {
-        "test": "make tests"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://github.com/petitchevalroux/articles-recommander-datastore.git"
-    },
-    "author": "Patrick Poulain",
-    "license": "GPL-3.0",
-    "bugs": {
-        "url": "https://github.com/petitchevalroux/articles-recommander-datastore/issues"
-    },
-    "homepage": "https://github.com/petitchevalroux/articles-recommander-datastore#readme",
-    "devDependencies": {
-        "eslint": "^3.3.1",
-        "eslint-plugin-promise": "^2.0.1",
-        "istanbul": "^0.4.4",
-        "js-beautify": "^1.6.3",
-        "mocha": "^3.0.2",
-        "sinon": "^1.17.5"
-    }
+  "name": "articles-recommander-datastore",
+  "version": "0.0.0",
+  "description": "A jsonapi server to articles-recommander data",
+  "scripts": {
+    "test": "make tests",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/petitchevalroux/articles-recommander-datastore.git"
+  },
+  "author": "Patrick Poulain",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/petitchevalroux/articles-recommander-datastore/issues"
+  },
+  "homepage": "https://github.com/petitchevalroux/articles-recommander-datastore#readme",
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "eslint-config-loopback": "^4.0.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "istanbul": "^0.4.4",
+    "js-beautify": "^1.6.3",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "helmet": "^1.3.0",
+    "loopback": "^2.37.1",
+    "loopback-boot": "^2.23.0",
+    "loopback-component-explorer": "^2.7.0",
+    "loopback-component-jsonapi": "^1.1.0",
+    "loopback-connector-mysql": "^2.4.1",
+    "loopback-datasource-juggler": "^2.51.0",
+    "serve-favicon": "^2.3.2",
+    "strong-error-handler": "^1.1.1"
+  }
 }

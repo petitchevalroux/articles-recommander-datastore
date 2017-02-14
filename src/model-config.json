@@ -1,0 +1,18 @@
+{
+  "_meta": {
+    "sources": [
+      "./models"
+    ],
+    "mixins": [
+      "./mixins"
+    ]
+  },
+  "website": {
+    "dataSource": "mysql",
+    "public": true
+  },
+  "article": {
+    "dataSource": "mysql",
+    "public": true
+  }
+}
