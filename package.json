@@ -32,7 +32,6 @@
     "loopback": "^2.37.1",
     "loopback-boot": "^2.23.0",
     "loopback-component-explorer": "^2.7.0",
-    "loopback-component-jsonapi": "^1.1.0",
     "loopback-connector-mysql": "^2.4.1",
     "loopback-datasource-juggler": "^2.51.0",
     "serve-favicon": "^2.3.2",
