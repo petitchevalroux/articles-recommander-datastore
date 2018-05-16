@@ -6,7 +6,7 @@
     "database": "articles-recommander",
     "password": "pw",
     "name": "mysql",
-    "user": "root",
+    "user": "artrec",
     "connector": "mysql"
   }
 }
